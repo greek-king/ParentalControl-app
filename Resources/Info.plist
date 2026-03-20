@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>ParentalGuard</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.parentalguard</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>ParentalGuard</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>MinimumOSVersion</key>
+	<string>16.0</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>ParentalGuard needs location access to show your child's whereabouts and safe zone alerts.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>ParentalGuard uses background location to alert you when your child leaves safe zones.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Use Face ID to securely access ParentalGuard parent controls.</string>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+	</dict>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+		<string>fetch</string>
+	</array>
+</dict>
+</plist>
